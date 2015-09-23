@@ -1,0 +1,25 @@
+{
+  "name": "LKUserDefaultOption",
+  "version": "0.1.0",
+  "summary": "A short description of LKUserDefaultOption.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LKUserDefaultOption",
+  "license": "MIT",
+  "authors": {
+    "Hiroshi Hashiguchi": "xcatsan@mac.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LKUserDefaultOption.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LKUserDefaultOption": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

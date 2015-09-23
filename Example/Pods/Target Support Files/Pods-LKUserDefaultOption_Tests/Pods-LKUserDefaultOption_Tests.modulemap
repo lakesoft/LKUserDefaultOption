@@ -1,0 +1,6 @@
+framework module Pods_LKUserDefaultOption_Tests {
+  umbrella header "Pods-LKUserDefaultOption_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

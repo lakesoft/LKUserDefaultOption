@@ -1,0 +1,14 @@
+PODS:
+  - LKUserDefaultOption (0.1.0)
+
+DEPENDENCIES:
+  - LKUserDefaultOption (from `../`)
+
+EXTERNAL SOURCES:
+  LKUserDefaultOption:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LKUserDefaultOption: 43c35e0a36e4e186f406f4bf9c4d8ddc1946ded0
+
+COCOAPODS: 0.38.2

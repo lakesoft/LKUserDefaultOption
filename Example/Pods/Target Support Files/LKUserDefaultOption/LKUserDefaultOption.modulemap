@@ -1,0 +1,6 @@
+framework module LKUserDefaultOption {
+  umbrella header "LKUserDefaultOption-umbrella.h"
+
+  export *
+  module * { export * }
+}
