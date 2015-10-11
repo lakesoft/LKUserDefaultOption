@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "817F04947B264B3C3BAA49437E2928C7833F4EAA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "817F04947B264B3C3BAA49437E2928C7833F4EAA" : 0,
+    "82D94F45481927F0547E20EDB4147E48FF33BC06" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A3C3B451-251F-46FF-82CD-AB9365B3F829",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "817F04947B264B3C3BAA49437E2928C7833F4EAA" : "LKUserDefaultOption\/",
+    "82D94F45481927F0547E20EDB4147E48FF33BC06" : "LKUserDefaultModel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LKUserDefaultOption",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LKUserDefaultOption.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lakesoft\/LKUserDefaultOption.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "817F04947B264B3C3BAA49437E2928C7833F4EAA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lakesoft\/LKUserDefaultModel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82D94F45481927F0547E20EDB4147E48FF33BC06"
+    }
+  ]
+}
