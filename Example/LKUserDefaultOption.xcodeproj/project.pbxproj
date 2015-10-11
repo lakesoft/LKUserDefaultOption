@@ -16,6 +16,8 @@
 		BC08BC2E1BB3ABA50037BD4B /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08BC2C1BB3ABA50037BD4B /* UserDefaults.swift */; settings = {ASSET_TAGS = (); }; };
 		BC08BC311BB3ACB00037BD4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08BC301BB3ACB00037BD4B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BCBC49AB1BC9D1E400BCAD53 /* TagOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49AA1BC9D1E400BCAD53 /* TagOption.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49BA1BCA2D0800BCAD53 /* LightOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49B91BCA2D0800BCAD53 /* LightOption.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49CA1BCAA0FF00BCAD53 /* TimeOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49C91BCAA0FF00BCAD53 /* TimeOption.swift */; settings = {ASSET_TAGS = (); }; };
 		FDC21643A90E6B0EA95B5F6C /* Pods_LKUserDefaultOption_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46968DA516954661D5208555 /* Pods_LKUserDefaultOption_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		BC08BC2C1BB3ABA50037BD4B /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		BC08BC301BB3ACB00037BD4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BCBC49AA1BC9D1E400BCAD53 /* TagOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagOption.swift; sourceTree = "<group>"; };
+		BCBC49B91BCA2D0800BCAD53 /* LightOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightOption.swift; sourceTree = "<group>"; };
+		BCBC49C91BCAA0FF00BCAD53 /* TimeOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeOption.swift; sourceTree = "<group>"; };
 		DC031BFB332F6A6A59631DF2 /* Pods-LKUserDefaultOption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUserDefaultOption_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKUserDefaultOption_Tests/Pods-LKUserDefaultOption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DECB349622B648601B4CE528 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E499CEC62BDD643C2F05FA94 /* Pods-LKUserDefaultOption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUserDefaultOption_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKUserDefaultOption_Example/Pods-LKUserDefaultOption_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 			children = (
 				BC08BC2B1BB3ABA50037BD4B /* LevelOption.swift */,
 				BCBC49AA1BC9D1E400BCAD53 /* TagOption.swift */,
+				BCBC49B91BCA2D0800BCAD53 /* LightOption.swift */,
+				BCBC49C91BCAA0FF00BCAD53 /* TimeOption.swift */,
 				BC08BC2C1BB3ABA50037BD4B /* UserDefaults.swift */,
 			);
 			name = "Sample Models";
@@ -376,7 +382,9 @@
 				BC08BC2E1BB3ABA50037BD4B /* UserDefaults.swift in Sources */,
 				BC08BC2D1BB3ABA50037BD4B /* LevelOption.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BCBC49CA1BCAA0FF00BCAD53 /* TimeOption.swift in Sources */,
 				BCBC49AB1BC9D1E400BCAD53 /* TagOption.swift in Sources */,
+				BCBC49BA1BCA2D0800BCAD53 /* LightOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

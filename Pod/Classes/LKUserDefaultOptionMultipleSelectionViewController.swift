@@ -10,13 +10,13 @@ import UIKit
 
 public class LKUserDefaultOptionMultipleSelectionViewController: UITableViewController {
 
-    var option:LKUserDefaultOption!
+    var model:LKUserDefaultOptionModel!
     var selection:LKUserDefaultOptionMultipleSelection!
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = option.titleLabel()
+        title = model.titleLabel()
         
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "LKUserDefaultModelMultipleSelectionViewControllerCell")
         self.tableView.reloadData()
@@ -43,7 +43,7 @@ public class LKUserDefaultOptionMultipleSelectionViewController: UITableViewCont
         } else {
             selection.selectedIndexPathSet.insert(indexPath)
         }
-        option.save()
+        model.save()
         tableView.reloadRowsAtIndexPaths(Array(selection.selectedIndexPathSet), withRowAnimation: UITableViewRowAnimation.None)
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.None)
         

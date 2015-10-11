@@ -11,13 +11,13 @@ import UIKit
 
 public class LKUserDefaultOptionSingleSelectionViewController: UITableViewController {
 
-    var option: LKUserDefaultOption!
+    var model:LKUserDefaultOptionModel!
     var selection: LKUserDefaultOptionSingleSelection!
 
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = option.titleLabel()
+        title = model.titleLabel()
     
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "LKUserDefaultModelSingleSelectionViewControllerCell")
         self.tableView.reloadData()
@@ -41,7 +41,7 @@ public class LKUserDefaultOptionSingleSelectionViewController: UITableViewContro
     public override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let indexPaths:[NSIndexPath] = [indexPath, selection.selectedIndexPath]
         selection.selectedIndexPath = indexPath
-        option.save()
+        model.save()
         tableView.reloadRowsAtIndexPaths(indexPaths, withRowAnimation: UITableViewRowAnimation.None)
         
         if selection.closeWhenSelected() {

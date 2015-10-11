@@ -9,21 +9,11 @@
 public protocol LKUserDefaultOptionMultipleSelection: LKUserDefaultOptionSelection {
     
     var selectedIndexPathSet: Set<NSIndexPath> { get set }
-    func selectedModels() -> [AnyObject]
-
     func labelSeparator() -> String
 }
 
 public extension LKUserDefaultOptionMultipleSelection {
     
-    func selectedModels() -> AnyObject {
-        var models = [AnyObject]()
-        for indexPath in selectedIndexPathSet {
-            models += [model(indexPath)]
-        }
-        return models
-    }
-
     func labelSeparator() -> String {
         return ","
     }
@@ -34,3 +24,4 @@ public extension LKUserDefaultOptionMultipleSelection {
     }
 
 }
+

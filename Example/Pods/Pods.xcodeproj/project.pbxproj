@@ -24,6 +24,14 @@
 		BCBC49AD1BC9D3B200BCAD53 /* LKUserDefaultOptionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49AC1BC9D3B200BCAD53 /* LKUserDefaultOptionSelection.swift */; settings = {ASSET_TAGS = (); }; };
 		BCBC49AE1BC9E3D600BCAD53 /* LKUserDefaultOptionMultipleSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08BC0F1BB354B50037BD4B /* LKUserDefaultOptionMultipleSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BCBC49B01BC9E5D700BCAD53 /* LKUserDefaultOptionSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49AF1BC9E5D700BCAD53 /* LKUserDefaultOptionSelectionCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49B41BCA17AD00BCAD53 /* LKUserDefaultOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49B31BCA17AD00BCAD53 /* LKUserDefaultOptionModel.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49B61BCA2A0800BCAD53 /* LKUserDefaultOptionSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49B51BCA2A0800BCAD53 /* LKUserDefaultOptionSwitchCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49BC1BCA482900BCAD53 /* LKUserDefaultOptionSingleSelectionGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49BB1BCA482900BCAD53 /* LKUserDefaultOptionSingleSelectionGeneric.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49BE1BCA485600BCAD53 /* LKUserDefaultOptionModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49BD1BCA485600BCAD53 /* LKUserDefaultOptionModelItem.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49C01BCA4B9D00BCAD53 /* LKUserDefaultOptionMultipleSelectionGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49BF1BCA4B9D00BCAD53 /* LKUserDefaultOptionMultipleSelectionGeneric.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49C21BCA8E3100BCAD53 /* LKUserDefaultOptionSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49C11BCA8E3100BCAD53 /* LKUserDefaultOptionSwitch.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49C41BCA99DA00BCAD53 /* LKUserDefaultOptionStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49C31BCA99DA00BCAD53 /* LKUserDefaultOptionStepper.swift */; settings = {ASSET_TAGS = (); }; };
+		BCBC49C81BCAA00600BCAD53 /* LKUserDefaultOptionStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC49C71BCAA00600BCAD53 /* LKUserDefaultOptionStepperCell.swift */; settings = {ASSET_TAGS = (); }; };
 		CE572197DC890C48F832B97CE35BBBA4 /* Pods-LKUserDefaultOption_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3171C44AC35F629E1708FD6FF1C402F /* Pods-LKUserDefaultOption_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA41B3F6A2F5E773EA044E4F541FB734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1071908D19DEDF9E25A43E39D422B /* Foundation.framework */; };
 		E91BD7498ABDFFD53343D90EF83703C4 /* LKUserDefaultOption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB499C5808E41BD1B5A3D8B4F972872 /* LKUserDefaultOption-dummy.m */; };
@@ -92,6 +100,14 @@
 		BC08BC321BB3AE300037BD4B /* LKUserDefaultOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOption.swift; sourceTree = "<group>"; };
 		BCBC49AC1BC9D3B200BCAD53 /* LKUserDefaultOptionSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionSelection.swift; sourceTree = "<group>"; };
 		BCBC49AF1BC9E5D700BCAD53 /* LKUserDefaultOptionSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionSelectionCell.swift; sourceTree = "<group>"; };
+		BCBC49B31BCA17AD00BCAD53 /* LKUserDefaultOptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionModel.swift; sourceTree = "<group>"; };
+		BCBC49B51BCA2A0800BCAD53 /* LKUserDefaultOptionSwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionSwitchCell.swift; sourceTree = "<group>"; };
+		BCBC49BB1BCA482900BCAD53 /* LKUserDefaultOptionSingleSelectionGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionSingleSelectionGeneric.swift; sourceTree = "<group>"; };
+		BCBC49BD1BCA485600BCAD53 /* LKUserDefaultOptionModelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionModelItem.swift; sourceTree = "<group>"; };
+		BCBC49BF1BCA4B9D00BCAD53 /* LKUserDefaultOptionMultipleSelectionGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionMultipleSelectionGeneric.swift; sourceTree = "<group>"; };
+		BCBC49C11BCA8E3100BCAD53 /* LKUserDefaultOptionSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionSwitch.swift; sourceTree = "<group>"; };
+		BCBC49C31BCA99DA00BCAD53 /* LKUserDefaultOptionStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionStepper.swift; sourceTree = "<group>"; };
+		BCBC49C71BCAA00600BCAD53 /* LKUserDefaultOptionStepperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKUserDefaultOptionStepperCell.swift; sourceTree = "<group>"; };
 		C7D4787016FFC12F004EFA849622DE4D /* Pods-LKUserDefaultOption_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LKUserDefaultOption_Tests.modulemap"; sourceTree = "<group>"; };
 		D4B959581E35159F2DA372B4EA9E816A /* Pods-LKUserDefaultOption_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKUserDefaultOption_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D98D3759B110EDF474E714D1E0DDCE08 /* Pods-LKUserDefaultOption_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKUserDefaultOption_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -238,17 +254,25 @@
 			isa = PBXGroup;
 			children = (
 				BC08BC321BB3AE300037BD4B /* LKUserDefaultOption.swift */,
+				BCBC49B31BCA17AD00BCAD53 /* LKUserDefaultOptionModel.swift */,
+				BCBC49BD1BCA485600BCAD53 /* LKUserDefaultOptionModelItem.swift */,
 				BC08BC0B1BB354B50037BD4B /* LKUserDefaultOptionCell.swift */,
 				BC08BC0C1BB354B50037BD4B /* LKUserDefaultOptionManager.swift */,
 				BC08BC0D1BB354B50037BD4B /* LKUserDefaultOptionMultipleSelection.swift */,
+				BCBC49BF1BCA4B9D00BCAD53 /* LKUserDefaultOptionMultipleSelectionGeneric.swift */,
 				BC08BC0E1BB354B50037BD4B /* LKUserDefaultModelMultipleSelectionCell.swift */,
 				BC08BC0F1BB354B50037BD4B /* LKUserDefaultOptionMultipleSelectionViewController.swift */,
 				BC08BC101BB354B50037BD4B /* LKUserDefaultOptionSingleSelection.swift */,
+				BCBC49BB1BCA482900BCAD53 /* LKUserDefaultOptionSingleSelectionGeneric.swift */,
 				BC08BC111BB354B50037BD4B /* LKUserDefaultOptionSingleSelectionCell.swift */,
 				BC08BC131BB354B50037BD4B /* LKUserDefaultOptionSingleSelectionViewController.swift */,
 				BCBC49AC1BC9D3B200BCAD53 /* LKUserDefaultOptionSelection.swift */,
 				BCBC49AF1BC9E5D700BCAD53 /* LKUserDefaultOptionSelectionCell.swift */,
 				BC08BC141BB354B50037BD4B /* LKUserDefaultSettingViewController.swift */,
+				BCBC49B51BCA2A0800BCAD53 /* LKUserDefaultOptionSwitchCell.swift */,
+				BCBC49C11BCA8E3100BCAD53 /* LKUserDefaultOptionSwitch.swift */,
+				BCBC49C71BCAA00600BCAD53 /* LKUserDefaultOptionStepperCell.swift */,
+				BCBC49C31BCA99DA00BCAD53 /* LKUserDefaultOptionStepper.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -461,16 +485,24 @@
 				BC08BC1C1BB354B50037BD4B /* LKUserDefaultOptionSingleSelectionCell.swift in Sources */,
 				BCBC49B01BC9E5D700BCAD53 /* LKUserDefaultOptionSelectionCell.swift in Sources */,
 				BC08BC191BB354B50037BD4B /* LKUserDefaultModelMultipleSelectionCell.swift in Sources */,
+				BCBC49BC1BCA482900BCAD53 /* LKUserDefaultOptionSingleSelectionGeneric.swift in Sources */,
 				BC08BC171BB354B50037BD4B /* LKUserDefaultOptionManager.swift in Sources */,
+				BCBC49C41BCA99DA00BCAD53 /* LKUserDefaultOptionStepper.swift in Sources */,
+				BCBC49B41BCA17AD00BCAD53 /* LKUserDefaultOptionModel.swift in Sources */,
+				BCBC49C81BCAA00600BCAD53 /* LKUserDefaultOptionStepperCell.swift in Sources */,
 				BC08BC181BB354B50037BD4B /* LKUserDefaultOptionMultipleSelection.swift in Sources */,
 				BC08BC1E1BB354B50037BD4B /* LKUserDefaultOptionSingleSelectionViewController.swift in Sources */,
 				BC08BC1B1BB354B50037BD4B /* LKUserDefaultOptionSingleSelection.swift in Sources */,
 				BCBC49AE1BC9E3D600BCAD53 /* LKUserDefaultOptionMultipleSelectionViewController.swift in Sources */,
+				BCBC49B61BCA2A0800BCAD53 /* LKUserDefaultOptionSwitchCell.swift in Sources */,
+				BCBC49C21BCA8E3100BCAD53 /* LKUserDefaultOptionSwitch.swift in Sources */,
 				BCBC49AD1BC9D3B200BCAD53 /* LKUserDefaultOptionSelection.swift in Sources */,
 				BC08BC161BB354B50037BD4B /* LKUserDefaultOptionCell.swift in Sources */,
 				BC08BC331BB3AE300037BD4B /* LKUserDefaultOption.swift in Sources */,
 				E91BD7498ABDFFD53343D90EF83703C4 /* LKUserDefaultOption-dummy.m in Sources */,
+				BCBC49C01BCA4B9D00BCAD53 /* LKUserDefaultOptionMultipleSelectionGeneric.swift in Sources */,
 				BC08BC1F1BB354B50037BD4B /* LKUserDefaultSettingViewController.swift in Sources */,
+				BCBC49BE1BCA485600BCAD53 /* LKUserDefaultOptionModelItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

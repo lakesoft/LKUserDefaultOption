@@ -9,14 +9,9 @@
 public protocol LKUserDefaultOptionSingleSelection:LKUserDefaultOptionSelection {
 
     var selectedIndexPath: NSIndexPath { get set }
-    func selectedModel() -> AnyObject    
 }
 
 public extension LKUserDefaultOptionSingleSelection {
-
-    func selectedModel() -> AnyObject {
-        return model(selectedIndexPath)
-    }
 
     // MARK: - LKUserDefaultOptionSelection
     func isSelected(indexPath:NSIndexPath) -> Bool {

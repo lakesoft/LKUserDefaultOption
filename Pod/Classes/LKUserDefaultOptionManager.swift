@@ -11,8 +11,9 @@ public class LKUserDefaultOptionManager {
 
     static var options = [String:LKUserDefaultOption]()
 
-    public class func createOption<T:LKUserDefaultOption>(keyname:String) -> T {
+    public class func createOption<T:LKUserDefaultOption>(keyname:String, defaultValue:AnyObject) -> T {
         let option:T = T(keyname:keyname)
+        option.setupOption(defaultValue)
         options[keyname] = option
         return option
     }

@@ -19,17 +19,17 @@ public class LKUserDefaultSettingViewController: UITableViewController {
         if let cell = selectedCell as? LKUserDefaultOptionSingleSelectionCell {
             let viewController = LKUserDefaultOptionSingleSelectionViewController()
             let option = LKUserDefaultOptionManager.getOption(cell.userDefaultOptionKeyName)
-            viewController.option = option
-            if let selection = option as? LKUserDefaultOptionSingleSelection {
+            if let model = option as? LKUserDefaultOptionModel, selection = option as? LKUserDefaultOptionSingleSelection {
+                viewController.model = model
                 viewController.selection = selection
+                navigationController?.pushViewController(viewController, animated: true)
             }
-            navigationController?.pushViewController(viewController, animated: true)
         }
         else if let cell = selectedCell as? LKUserDefaultOptionMultipleSelectionCell {
             let viewController = LKUserDefaultOptionMultipleSelectionViewController()
             let option = LKUserDefaultOptionManager.getOption(cell.userDefaultOptionKeyName)
-            viewController.option = option
-            if let selection = LKUserDefaultOptionManager.getOption(cell.userDefaultOptionKeyName) as? LKUserDefaultOptionMultipleSelection {
+            if let model = option as? LKUserDefaultOptionModel, selection = option as? LKUserDefaultOptionMultipleSelection {
+                viewController.model = model
                 viewController.selection = selection
                 navigationController?.pushViewController(viewController, animated: true)
             }

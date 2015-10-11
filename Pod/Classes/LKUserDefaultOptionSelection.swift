@@ -9,7 +9,6 @@
 public protocol LKUserDefaultOptionSelection {
     
     func label(indexPath:NSIndexPath) -> String
-    func model(indexPath:NSIndexPath) -> AnyObject
     func sectionLabel(section:Int) -> String
     
     func numberOfRows(section:Int) -> Int
@@ -30,7 +29,4 @@ public extension LKUserDefaultOptionSelection {
         return 1
     }
 
-    func closeWhenSelected() -> Bool {
-        return false
-    }
 }

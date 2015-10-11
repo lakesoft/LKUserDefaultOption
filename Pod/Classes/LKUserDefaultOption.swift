@@ -6,15 +6,24 @@
 //
 //
 
-public class LKUserDefaultOption {
+public class LKUserDefaultOption: LKUserDefaultOptionModel {
     
     public var keyname:String
-    public var handlers: [(LKUserDefaultOption->Void)]
+    public var handlers: [(LKUserDefaultOptionModel->Void)]
 
     public required init(keyname:String) {
         self.keyname = keyname
         self.handlers = []
-        
+    }
+    
+    public func setupOption(defaultValue:AnyObject?) {
+        setupItem()
+        if NSUserDefaults.standardUserDefaults().objectForKey(keyname) == nil,
+            let value = defaultValue {
+                setDefaultValue(value)  // TODO: case missing value
+        } else {
+            restore()
+        }
     }
 
     public func notifyUpdate() {
@@ -23,19 +32,11 @@ public class LKUserDefaultOption {
         }
     }
     
-    public func addHandler(handler: LKUserDefaultOption->Void) {
+    public func addHandler(handler: LKUserDefaultOptionModel->Void) {
         handlers += [handler]
         handler(self)
     }
     
-    public func save() {
-        // do nothing
-    }
-
-    public func restore() {
-        // do nothing
-    }
-
     public func saveUserDefaults(value:AnyObject) {
         NSUserDefaults.standardUserDefaults().setObject(value, forKey: keyname)
         NSUserDefaults.standardUserDefaults().synchronize()
@@ -45,14 +46,40 @@ public class LKUserDefaultOption {
     public func restoreUserDefaults() -> AnyObject? {
         return NSUserDefaults.standardUserDefaults().objectForKey(keyname)
     }
+
     
-    // MARK: - LKUserDefaultOptionLabel
+    // MARK: - LKUserDefaultOptionModel
+    public func setupItem() {
+        // do nothing (optional)
+    }
+    
     public func titleLabel() -> String {
         return NSLocalizedString(keyname, comment: "")
     }
-    
+
     public func valueLabel() -> String {
+        if let object = restoreUserDefaults() {
+            object.description
+        }
         return ""
+    }
+
+        public func setDefaultValue(value: AnyObject) {
+        // do nothing (optional)
+    }
+    public func setValue(value:AnyObject) {
+        // do nothing
+    }
+    public func value() -> AnyObject? {
+        // do nothing
+        return nil
+    }
+
+    public func save() {
+        // do nothing (optional)
+    }
+    public func restore() {
+        // do nothing (optional)
     }
 
 }
